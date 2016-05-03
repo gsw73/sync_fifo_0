@@ -55,7 +55,7 @@ assign vld = !empty;
 // Register:  wen
 //
 // Only push data into a non-full FIFO to avoid corrupting data already
-// in FIFO.  User must, however, avoid pushing data into an emtpy FIFO
+// in FIFO.  User must, however, avoid pushing data into a full FIFO
 // using the almost full signal, alFull
 
 always @( posedge clk )
