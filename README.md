@@ -10,4 +10,7 @@ to stress empty or full conditions and change random assertion of push/pop signa
 Note that FIFO is designed such that user may assert pop conitnuously.  Data should only be sampled by user when
 both pop and vld signals are asserted.
 
-You can run the simulation and look at waveforms at http://edaplayground.com.
+You can run the simulation and look at waveforms at https://edaplayground.com.
+
+View the wavedrom*.json timing diagram by copying the JSON file contents to https://wavedrom.com
+
