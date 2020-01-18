@@ -12,5 +12,5 @@ both pop and vld signals are asserted.
 
 You can run the simulation and look at waveforms at https://edaplayground.com.
 
-View the wavedrom*.json timing diagram by copying the JSON file contents to https://wavedrom.com
+View the wavedrom*.json timing diagram by copying the JSON file contents to https://wavedrom.com.
 
