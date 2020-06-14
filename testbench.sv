@@ -13,10 +13,8 @@ interface fifo_if#(parameter DW=64)(input bit clk);
     logic empty;
 
     clocking cb @(posedge clk);
-        default output #1;
-
         inout pop;
-        output rst_n, push, data_in;
+        output #1 rst_n, push, data_in;
         input alFull, vld, data_out, empty, full;
     endclocking
 
